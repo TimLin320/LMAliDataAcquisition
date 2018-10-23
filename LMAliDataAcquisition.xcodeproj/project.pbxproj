@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E823D94B2178893500A1F991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D94A2178893500A1F991 /* AppDelegate.swift */; };
+		E823D94D2178893500A1F991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D94C2178893500A1F991 /* ViewController.swift */; };
+		E823D9502178893500A1F991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E823D94E2178893500A1F991 /* Main.storyboard */; };
+		E823D9522178893600A1F991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E823D9512178893600A1F991 /* Assets.xcassets */; };
+		E823D9552178893600A1F991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E823D9532178893600A1F991 /* LaunchScreen.storyboard */; };
+		E823D9602178893700A1F991 /* LMAliDataAcquisitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D95F2178893700A1F991 /* LMAliDataAcquisitionTests.swift */; };
+		E823D96B2178893700A1F991 /* LMAliDataAcquisitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D96A2178893700A1F991 /* LMAliDataAcquisitionUITests.swift */; };
+		E823D98321788F6000A1F991 /* fetchAliCartData.js in Resources */ = {isa = PBXBuildFile; fileRef = E823D97A21788F6000A1F991 /* fetchAliCartData.js */; };
+		E823D98421788F6000A1F991 /* LMAliFetchCollectionDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D97B21788F6000A1F991 /* LMAliFetchCollectionDataVC.swift */; };
+		E823D98521788F6000A1F991 /* LMAliFetchDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D97C21788F6000A1F991 /* LMAliFetchDataVC.swift */; };
+		E823D98721788F6000A1F991 /* LMAliDataEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D97E21788F6000A1F991 /* LMAliDataEnum.swift */; };
+		E823D98921788F6000A1F991 /* fetchAliCollectionData.js in Resources */ = {isa = PBXBuildFile; fileRef = E823D98021788F6000A1F991 /* fetchAliCollectionData.js */; };
+		E823D98A21788F6000A1F991 /* fetchAliOrdersData.js in Resources */ = {isa = PBXBuildFile; fileRef = E823D98121788F6000A1F991 /* fetchAliOrdersData.js */; };
+		E823D9962179CE7800A1F991 /* Web+WKNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D98D2179CE7800A1F991 /* Web+WKNavigationDelegate.swift */; };
+		E823D9982179CE7800A1F991 /* Web+MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D98F2179CE7800A1F991 /* Web+MessageHandler.swift */; };
+		E823D9992179CE7800A1F991 /* Web+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D9902179CE7800A1F991 /* Web+Progress.swift */; };
+		E823D99A2179CE7800A1F991 /* LMScriptMsgHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D9922179CE7800A1F991 /* LMScriptMsgHandler.swift */; };
+		E823D99B2179CE7800A1F991 /* LMWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D9932179CE7800A1F991 /* LMWebviewController.swift */; };
+		E823D99C2179CE7800A1F991 /* Web+WKUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D9942179CE7800A1F991 /* Web+WKUIDelegate.swift */; };
+		E823D9A12179E0CA00A1F991 /* LMAliFetchCartDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D99F2179E0CA00A1F991 /* LMAliFetchCartDataVC.swift */; };
+		E823D9A32179E10500A1F991 /* LMAliFetchOrdersDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823D9A22179E10400A1F991 /* LMAliFetchOrdersDataVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E823D95C2178893700A1F991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E823D93F2178893500A1F991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E823D9462178893500A1F991;
+			remoteInfo = LMAliDataAcquisition;
+		};
+		E823D9672178893700A1F991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E823D93F2178893500A1F991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E823D9462178893500A1F991;
+			remoteInfo = LMAliDataAcquisition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E823D9472178893500A1F991 /* LMAliDataAcquisition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMAliDataAcquisition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E823D94A2178893500A1F991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E823D94C2178893500A1F991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E823D94F2178893500A1F991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E823D9512178893600A1F991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E823D9542178893600A1F991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E823D9562178893600A1F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E823D95B2178893700A1F991 /* LMAliDataAcquisitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMAliDataAcquisitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E823D95F2178893700A1F991 /* LMAliDataAcquisitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMAliDataAcquisitionTests.swift; sourceTree = "<group>"; };
+		E823D9612178893700A1F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E823D9662178893700A1F991 /* LMAliDataAcquisitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMAliDataAcquisitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E823D96A2178893700A1F991 /* LMAliDataAcquisitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMAliDataAcquisitionUITests.swift; sourceTree = "<group>"; };
+		E823D96C2178893700A1F991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E823D97A21788F6000A1F991 /* fetchAliCartData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fetchAliCartData.js; sourceTree = "<group>"; };
+		E823D97B21788F6000A1F991 /* LMAliFetchCollectionDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAliFetchCollectionDataVC.swift; sourceTree = "<group>"; };
+		E823D97C21788F6000A1F991 /* LMAliFetchDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAliFetchDataVC.swift; sourceTree = "<group>"; };
+		E823D97E21788F6000A1F991 /* LMAliDataEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAliDataEnum.swift; sourceTree = "<group>"; };
+		E823D98021788F6000A1F991 /* fetchAliCollectionData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fetchAliCollectionData.js; sourceTree = "<group>"; };
+		E823D98121788F6000A1F991 /* fetchAliOrdersData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fetchAliOrdersData.js; sourceTree = "<group>"; };
+		E823D98D2179CE7800A1F991 /* Web+WKNavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web+WKNavigationDelegate.swift"; sourceTree = "<group>"; };
+		E823D98F2179CE7800A1F991 /* Web+MessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web+MessageHandler.swift"; sourceTree = "<group>"; };
+		E823D9902179CE7800A1F991 /* Web+Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web+Progress.swift"; sourceTree = "<group>"; };
+		E823D9922179CE7800A1F991 /* LMScriptMsgHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMScriptMsgHandler.swift; sourceTree = "<group>"; };
+		E823D9932179CE7800A1F991 /* LMWebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMWebviewController.swift; sourceTree = "<group>"; };
+		E823D9942179CE7800A1F991 /* Web+WKUIDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web+WKUIDelegate.swift"; sourceTree = "<group>"; };
+		E823D99F2179E0CA00A1F991 /* LMAliFetchCartDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAliFetchCartDataVC.swift; sourceTree = "<group>"; };
+		E823D9A22179E10400A1F991 /* LMAliFetchOrdersDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMAliFetchOrdersDataVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E823D9442178893500A1F991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823D9582178893700A1F991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823D9632178893700A1F991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E823D93E2178893500A1F991 = {
+			isa = PBXGroup;
+			children = (
+				E823D9492178893500A1F991 /* LMAliDataAcquisition */,
+				E823D95E2178893700A1F991 /* LMAliDataAcquisitionTests */,
+				E823D9692178893700A1F991 /* LMAliDataAcquisitionUITests */,
+				E823D9482178893500A1F991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E823D9482178893500A1F991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E823D9472178893500A1F991 /* LMAliDataAcquisition.app */,
+				E823D95B2178893700A1F991 /* LMAliDataAcquisitionTests.xctest */,
+				E823D9662178893700A1F991 /* LMAliDataAcquisitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E823D9492178893500A1F991 /* LMAliDataAcquisition */ = {
+			isa = PBXGroup;
+			children = (
+				E823D98C2179CE7800A1F991 /* WebViewController */,
+				E823D97821788F6000A1F991 /* AliDataAcquision */,
+				E823D94A2178893500A1F991 /* AppDelegate.swift */,
+				E823D94C2178893500A1F991 /* ViewController.swift */,
+				E823D94E2178893500A1F991 /* Main.storyboard */,
+				E823D9512178893600A1F991 /* Assets.xcassets */,
+				E823D9532178893600A1F991 /* LaunchScreen.storyboard */,
+				E823D9562178893600A1F991 /* Info.plist */,
+			);
+			path = LMAliDataAcquisition;
+			sourceTree = "<group>";
+		};
+		E823D95E2178893700A1F991 /* LMAliDataAcquisitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E823D95F2178893700A1F991 /* LMAliDataAcquisitionTests.swift */,
+				E823D9612178893700A1F991 /* Info.plist */,
+			);
+			path = LMAliDataAcquisitionTests;
+			sourceTree = "<group>";
+		};
+		E823D9692178893700A1F991 /* LMAliDataAcquisitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E823D96A2178893700A1F991 /* LMAliDataAcquisitionUITests.swift */,
+				E823D96C2178893700A1F991 /* Info.plist */,
+			);
+			path = LMAliDataAcquisitionUITests;
+			sourceTree = "<group>";
+		};
+		E823D97821788F6000A1F991 /* AliDataAcquision */ = {
+			isa = PBXGroup;
+			children = (
+				E823D97E21788F6000A1F991 /* LMAliDataEnum.swift */,
+				E823D97C21788F6000A1F991 /* LMAliFetchDataVC.swift */,
+				E823D99F2179E0CA00A1F991 /* LMAliFetchCartDataVC.swift */,
+				E823D9A22179E10400A1F991 /* LMAliFetchOrdersDataVC.swift */,
+				E823D97B21788F6000A1F991 /* LMAliFetchCollectionDataVC.swift */,
+				E823D98021788F6000A1F991 /* fetchAliCollectionData.js */,
+				E823D98121788F6000A1F991 /* fetchAliOrdersData.js */,
+				E823D97A21788F6000A1F991 /* fetchAliCartData.js */,
+			);
+			path = AliDataAcquision;
+			sourceTree = "<group>";
+		};
+		E823D98C2179CE7800A1F991 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E823D9912179CE7800A1F991 /* Model */,
+				E823D9932179CE7800A1F991 /* LMWebviewController.swift */,
+				E823D98D2179CE7800A1F991 /* Web+WKNavigationDelegate.swift */,
+				E823D98F2179CE7800A1F991 /* Web+MessageHandler.swift */,
+				E823D9942179CE7800A1F991 /* Web+WKUIDelegate.swift */,
+				E823D9902179CE7800A1F991 /* Web+Progress.swift */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		E823D9912179CE7800A1F991 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E823D9922179CE7800A1F991 /* LMScriptMsgHandler.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E823D9462178893500A1F991 /* LMAliDataAcquisition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E823D96F2178893700A1F991 /* Build configuration list for PBXNativeTarget "LMAliDataAcquisition" */;
+			buildPhases = (
+				E823D9432178893500A1F991 /* Sources */,
+				E823D9442178893500A1F991 /* Frameworks */,
+				E823D9452178893500A1F991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMAliDataAcquisition;
+			productName = LMAliDataAcquisition;
+			productReference = E823D9472178893500A1F991 /* LMAliDataAcquisition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E823D95A2178893700A1F991 /* LMAliDataAcquisitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E823D9722178893700A1F991 /* Build configuration list for PBXNativeTarget "LMAliDataAcquisitionTests" */;
+			buildPhases = (
+				E823D9572178893700A1F991 /* Sources */,
+				E823D9582178893700A1F991 /* Frameworks */,
+				E823D9592178893700A1F991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E823D95D2178893700A1F991 /* PBXTargetDependency */,
+			);
+			name = LMAliDataAcquisitionTests;
+			productName = LMAliDataAcquisitionTests;
+			productReference = E823D95B2178893700A1F991 /* LMAliDataAcquisitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E823D9652178893700A1F991 /* LMAliDataAcquisitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E823D9752178893700A1F991 /* Build configuration list for PBXNativeTarget "LMAliDataAcquisitionUITests" */;
+			buildPhases = (
+				E823D9622178893700A1F991 /* Sources */,
+				E823D9632178893700A1F991 /* Frameworks */,
+				E823D9642178893700A1F991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E823D9682178893700A1F991 /* PBXTargetDependency */,
+			);
+			name = LMAliDataAcquisitionUITests;
+			productName = LMAliDataAcquisitionUITests;
+			productReference = E823D9662178893700A1F991 /* LMAliDataAcquisitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E823D93F2178893500A1F991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tim Lin";
+				TargetAttributes = {
+					E823D9462178893500A1F991 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E823D95A2178893700A1F991 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E823D9462178893500A1F991;
+					};
+					E823D9652178893700A1F991 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E823D9462178893500A1F991;
+					};
+				};
+			};
+			buildConfigurationList = E823D9422178893500A1F991 /* Build configuration list for PBXProject "LMAliDataAcquisition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E823D93E2178893500A1F991;
+			productRefGroup = E823D9482178893500A1F991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E823D9462178893500A1F991 /* LMAliDataAcquisition */,
+				E823D95A2178893700A1F991 /* LMAliDataAcquisitionTests */,
+				E823D9652178893700A1F991 /* LMAliDataAcquisitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E823D9452178893500A1F991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823D9552178893600A1F991 /* LaunchScreen.storyboard in Resources */,
+				E823D9522178893600A1F991 /* Assets.xcassets in Resources */,
+				E823D98321788F6000A1F991 /* fetchAliCartData.js in Resources */,
+				E823D9502178893500A1F991 /* Main.storyboard in Resources */,
+				E823D98921788F6000A1F991 /* fetchAliCollectionData.js in Resources */,
+				E823D98A21788F6000A1F991 /* fetchAliOrdersData.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823D9592178893700A1F991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823D9642178893700A1F991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E823D9432178893500A1F991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823D98421788F6000A1F991 /* LMAliFetchCollectionDataVC.swift in Sources */,
+				E823D9A12179E0CA00A1F991 /* LMAliFetchCartDataVC.swift in Sources */,
+				E823D99C2179CE7800A1F991 /* Web+WKUIDelegate.swift in Sources */,
+				E823D9992179CE7800A1F991 /* Web+Progress.swift in Sources */,
+				E823D98721788F6000A1F991 /* LMAliDataEnum.swift in Sources */,
+				E823D94D2178893500A1F991 /* ViewController.swift in Sources */,
+				E823D9A32179E10500A1F991 /* LMAliFetchOrdersDataVC.swift in Sources */,
+				E823D99A2179CE7800A1F991 /* LMScriptMsgHandler.swift in Sources */,
+				E823D99B2179CE7800A1F991 /* LMWebviewController.swift in Sources */,
+				E823D98521788F6000A1F991 /* LMAliFetchDataVC.swift in Sources */,
+				E823D94B2178893500A1F991 /* AppDelegate.swift in Sources */,
+				E823D9962179CE7800A1F991 /* Web+WKNavigationDelegate.swift in Sources */,
+				E823D9982179CE7800A1F991 /* Web+MessageHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823D9572178893700A1F991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823D9602178893700A1F991 /* LMAliDataAcquisitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E823D9622178893700A1F991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E823D96B2178893700A1F991 /* LMAliDataAcquisitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E823D95D2178893700A1F991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E823D9462178893500A1F991 /* LMAliDataAcquisition */;
+			targetProxy = E823D95C2178893700A1F991 /* PBXContainerItemProxy */;
+		};
+		E823D9682178893700A1F991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E823D9462178893500A1F991 /* LMAliDataAcquisition */;
+			targetProxy = E823D9672178893700A1F991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E823D94E2178893500A1F991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E823D94F2178893500A1F991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E823D9532178893600A1F991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E823D9542178893600A1F991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E823D96D2178893700A1F991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E823D96E2178893700A1F991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E823D9702178893700A1F991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XBK7NVXRL;
+				INFOPLIST_FILE = LMAliDataAcquisition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Lin.LMAliDataAcquisition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E823D9712178893700A1F991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XBK7NVXRL;
+				INFOPLIST_FILE = LMAliDataAcquisition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Lin.LMAliDataAcquisition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E823D9732178893700A1F991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XBK7NVXRL;
+				INFOPLIST_FILE = LMAliDataAcquisitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Lin.LMAliDataAcquisitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMAliDataAcquisition.app/LMAliDataAcquisition";
+			};
+			name = Debug;
+		};
+		E823D9742178893700A1F991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XBK7NVXRL;
+				INFOPLIST_FILE = LMAliDataAcquisitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Lin.LMAliDataAcquisitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMAliDataAcquisition.app/LMAliDataAcquisition";
+			};
+			name = Release;
+		};
+		E823D9762178893700A1F991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XBK7NVXRL;
+				INFOPLIST_FILE = LMAliDataAcquisitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Lin.LMAliDataAcquisitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LMAliDataAcquisition;
+			};
+			name = Debug;
+		};
+		E823D9772178893700A1F991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XBK7NVXRL;
+				INFOPLIST_FILE = LMAliDataAcquisitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Lin.LMAliDataAcquisitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LMAliDataAcquisition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E823D9422178893500A1F991 /* Build configuration list for PBXProject "LMAliDataAcquisition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823D96D2178893700A1F991 /* Debug */,
+				E823D96E2178893700A1F991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E823D96F2178893700A1F991 /* Build configuration list for PBXNativeTarget "LMAliDataAcquisition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823D9702178893700A1F991 /* Debug */,
+				E823D9712178893700A1F991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E823D9722178893700A1F991 /* Build configuration list for PBXNativeTarget "LMAliDataAcquisitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823D9732178893700A1F991 /* Debug */,
+				E823D9742178893700A1F991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E823D9752178893700A1F991 /* Build configuration list for PBXNativeTarget "LMAliDataAcquisitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E823D9762178893700A1F991 /* Debug */,
+				E823D9772178893700A1F991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E823D93F2178893500A1F991 /* Project object */;
+}

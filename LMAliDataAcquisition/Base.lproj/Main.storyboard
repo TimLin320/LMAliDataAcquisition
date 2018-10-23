@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NdT-Pq-dnX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LMAliDataAcquisition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXe-Xb-9Zo">
+                                <rect key="frame" x="137" y="281.5" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.85490196080000003" green="0.61176470589999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Cf2-bo-0ec"/>
+                                    <constraint firstAttribute="height" constant="40" id="YPy-g4-WWE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="淘宝购物车"/>
+                                <connections>
+                                    <action selector="gotoAliCartWeb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nWg-Mv-Yki"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yU5-nd-bMH">
+                                <rect key="frame" x="137.5" y="345.5" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.85490196080000003" green="0.61176470589999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XGR-oz-qUR"/>
+                                    <constraint firstAttribute="width" constant="100" id="aDU-A2-REy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="淘宝订单"/>
+                                <connections>
+                                    <action selector="gotoAliOrdersWeb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bf2-5f-m19"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfX-6Z-fBT">
+                                <rect key="frame" x="137" y="409.5" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.85490196080000003" green="0.61176470589999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="WtO-W7-JwM"/>
+                                    <constraint firstAttribute="height" constant="40" id="hEd-cm-Dqs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="淘宝收藏夹"/>
+                                <connections>
+                                    <action selector="gotoAliCollectionWeb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uT-mo-XnE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yU5-nd-bMH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Khd-iR-lCp"/>
+                            <constraint firstItem="hfX-6Z-fBT" firstAttribute="top" secondItem="yU5-nd-bMH" secondAttribute="bottom" constant="24" id="ZaC-9y-mJY"/>
+                            <constraint firstItem="yU5-nd-bMH" firstAttribute="top" secondItem="cXe-Xb-9Zo" secondAttribute="bottom" constant="24" id="d8i-4R-mS3"/>
+                            <constraint firstItem="cXe-Xb-9Zo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gAB-o5-MCD"/>
+                            <constraint firstItem="yU5-nd-bMH" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mwd-VB-ZNi"/>
+                            <constraint firstItem="hfX-6Z-fBT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="q0f-oK-LRR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vZV-oI-T4r"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f6m-xR-CwH">
+            <objects>
+                <navigationController id="NdT-Pq-dnX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="76h-Di-zJQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wUP-Ax-wXC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KtQ-60-7Xo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-673" y="64"/>
+        </scene>
+    </scenes>
+</document>
